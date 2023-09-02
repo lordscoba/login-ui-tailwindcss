@@ -1,0 +1,46 @@
+.img {
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.input {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: #4ba586;
+  text-align: center;
+  border-radius: 10px;
+}
+
+border-down {
+  border-style: solid;
+  border-color: black;
+  border-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Your CSS styles for medium-sized screens here */
+
+  .dissappear {
+    display: none;
+  }
+  .stretch {
+    width: 100;
+  }
+}
